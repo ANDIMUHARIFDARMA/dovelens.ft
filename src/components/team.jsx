@@ -5,6 +5,7 @@ import jonathanImage from '../assets/images/anggota/Jonathan.jpg';
 import wiraImage from '../assets/images/anggota/Wira.jpg';
 import audriImage from '../assets/images/anggota/Audri.jpg';
 import amanyImage from '../assets/images/anggota/Amany.jpg';
+import done123 from '../assets/images/hiro/done.png';
 
 // Import images
 
@@ -52,7 +53,7 @@ export default function Team() {
             id="team"
             className="text-white py-10 px-4 sm:px-6 lg:px-8"
             style={{
-                backgroundImage: "url('/src/assets/images/hiro/done.png')",
+                backgroundImage: `url(${done123})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 position: 'relative',
