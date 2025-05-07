@@ -27,7 +27,7 @@ const products = [
     description: "Paket pas banget yang mau mengabadikan momen penting",
     price: "Mulai dari Rp 500.000",
     image: image3,
-    packageName: "Graduation fotoshoot",
+    packageName: "Event photoshoot",
   },
 ];
 

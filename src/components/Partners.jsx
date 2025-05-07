@@ -17,7 +17,7 @@ const partners = [
 const whatsappNumber = "081382670872";
 
 const generateWhatsAppLink = () => {
-  const message = `Haloo min aku tertarik nih untuk kolaborasi, sebelumnya aku perkenalkan diri!!\nnama :\nalamat :\nno handphone :\nIngin membicarakan mengenai ( paket yang di pilih contoh : Paket graduate)`;
+  const message = `Haloo min aku tertarik nih untuk kolaborasi, sebelumnya aku perkenalkan diri!!\nnama :\nalamat :\nno handphone :\nnama perusahaan:\nIngin membicarakan mengenai kolaborasi ke dovelens.ft`;
   return `https://wa.me/62${whatsappNumber.slice(1)}?text=${encodeURIComponent(message)}`;
 };
 
